@@ -11,14 +11,29 @@
     <script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/BuildWeb.json", {onProgress: UnityProgress});
     </script>
+    <style>
+      kbd {
+          display: inline-block;
+          padding: 0.25rem;
+          font: 11px ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+          line-height: 10px;
+          color: #1f2328;
+          vertical-align: middle;
+          background-color: #f6f8fa;
+          border: solid 1px #afb8c133;
+          border-bottom-color: #afb8c133;
+          border-radius: 6px;
+          box-shadow: inset 0 -1px 0 #afb8c133;
+      }
+   </style>
   </head>
   <body>
     <div class="webgl-content">
-      <div id="unityContainer" style="width: 480px; height: 600px"></div>
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">Space game. Homework by Arte(r)m Sedov. <strong>Movement</strong>: <kbd>WASD</kbd>. <strong>Fire</strong>: <kbd>Alt</kbd> or left mouse button
+        <div class="title">Space game. Homework by Arte(r)m Sedov. <strong>Movement</strong>: <kbd>WASD</kbd>. <strong>Fire</strong>: <kbd>Alt</kbd> or <kbd>Left click</kbd>
            </br> <a href="https://github.com/arterm-sedov/space-game">https://github.com/arterm-sedov/space-game</a>
        
         </div>
