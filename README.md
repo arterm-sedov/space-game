@@ -10,6 +10,6 @@ Play the game here (PC, Mac, Linux):
 
 ## Controls 
 
-**Movement:** <kbd>WASD</kbd> or arrows
+**Movement:** <kbd>WASD</kbd> or <kbd>Arrows</kbd>
 
-**Fire:** <kbd>Alt</kbd> left mouse button
+**Fire:** <kbd>right Alt</kbd> or <kbd>Left click</kbd>
